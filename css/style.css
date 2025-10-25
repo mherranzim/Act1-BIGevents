@@ -1,0 +1,242 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+body {
+    font-family: Impact;
+    margin: 0;
+    padding: 0;
+}
+
+body img{
+    border-radius: 2%;
+}
+body a {
+    color: #3b4551;
+}
+
+/* Estils per a la navbar */
+nav {
+    background-color: #EAEAEA;
+    padding: 15px;
+}
+li{
+    color: #3b4551;
+    font-family: Nexa;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px;
+    background-color: #5fc6ea;
+    font-family: Nexa;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EAEAEA;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.navbar-superior{
+    color: #3b4551;
+}
+
+/* Estils per al contenidor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+.row-titols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0.3%;
+    margin-top:3%;
+}
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #5fc6ea;
+    border-radius: 8px;
+    color: #3b4551;
+}
+
+.col-titols {
+    flex: 1;
+    min-width: 300px;
+    margin: 0px;
+    padding: 20px;
+    background-color: #5fc6ea;
+    border-radius: 8px;
+    color: #3b4551;
+    line-height: 0.01%;
+}
+
+/* Estils per a títols i paràgrafs */
+h1{
+    font-family: Impact;
+    letter-spacing: 4px;
+    font-size: 600% !important;
+}
+
+h2 {
+    font-family: Nexa;
+    color: #EAEAEA;
+    font-weight: bold !important;
+    text-align: left;
+}
+
+h4{
+    color: #eaeaea;
+    font-family: Nexa;
+    text-align: justify;
+}
+
+h5{
+    font-size: 200% !important;
+    font-weight: bolder !important;
+    
+}
+
+p{
+    color: #3b4551;
+    font-family: Nexa;
+}
+
+h3{
+    font-weight: bold !important;
+    color: #3b4551 !important;
+    font-family: Nexa;
+}
+
+
+/* Text cartell */
+.textcartell{
+    color: #3b4551;
+    font-family: Nexa;
+    margin: 20px;
+    text-align: justify;
+}
+
+
+/* Títols dels convidats */
+.titol-convidats{
+    display: block; 
+    text-align: left; 
+    margin-left: 3%;
+}
+
+/* Caixes dels convidats */
+.contingut-convidats{
+    display: inline-flex; 
+    text-align: justify;
+    margin-left: 2%; 
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+/* Per arreglar els vincles */
+.good-anchor {
+    display: block;
+    position: relative;
+    top: -140px;
+    visibility: hidden;
+}
+
+/* Textos dels videojocs que queden a la dreta */
+.contenidor-jocs-dreta{
+    display: inline-flex; 
+    margin-bottom: 0.5%;
+}
+
+/* Textos dels videojocs que queden a l'esquerra*/
+.contenidor-jocs-esquerra{
+    display: inline-flex;
+}
+
+/* imatges dels videojocs que queden a la dreta */
+.imatges-jocs-dreta{
+    height:40%;
+    width: 40%;
+    margin-left: 1%;
+    border-radius: 1%;
+
+}
+
+/* imatges dels videojocs que queden a la esquerra */
+.imatges-jocs-esquerra{
+    height: 40%;
+    width: 40%;
+    border-radius: 1%;
+}
+
+.carousel-conjunt{
+    display: inline-flex; 
+    width: 100%; 
+    margin-left: 0.5%; 
+    margin-right: 0.5%;
+}
+
+.fons{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 150%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.boto-estil{
+ background-color: #5fc6ea !important;
+ border-color: #5fc6ea !important;
+}
+
+.boto-estil:hover{
+    background-color: #2a83a3 !important;;
+    border-color: #2a83a3 !important;
+}
+
+.carousel-events{
+    width: 100% !important;
+    background-color: #b4ebff !important; 
+    color: #5fc6ea !important;
+}
+
+.contenidor-events{
+    margin-bottom: 4%;
+}
+.imconvidat{
+    width: 40%;
+    height: 40%;
+}
+
+.imbig {
+    align-items: center;
+    border: 1px black;
+}
